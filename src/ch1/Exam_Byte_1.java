@@ -36,3 +36,7 @@ public class Exam_Byte_1 {
 	}
 
 }
+/*	컴파일 후 실행하는 법
+윈도우키 > 윈도우키 + "r" > cmd > cd / > file.java 이 있는 폴더 찾아가기 (ex) cd 0*R/1*m/ch1 ) 
+> javac -d . file.java > type file.java 로 package 확인 ( Name space 확인 ) > java package.className
+*/
