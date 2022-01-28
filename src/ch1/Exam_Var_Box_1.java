@@ -2,6 +2,12 @@
 // ; : 문장 종결 : statement() 종결 하기
 package ch1;
 
+/*	java.lang 패키지에 있는 Integer 클래스를 가져와서 Exam_Var_Box 클래스에서 사용한다.
+java.lang 패키지는 가장 기본적인 클래스들이기에 자바엔진에서 import 키워드를 사용해서 불러오지 않아도 사용할 수 있게 만들었다.
+java.lang.* 패키지 이외의 다른 자원들은 무조건 import 키워드를 불러와야 한다.
+import java.lang.Integer;
+*/
+
 // public : 키워드 : 접근제한자 : package의 접근을 제한하는 키워드( public : 다른 package, 같은 package에서 접근 가능 )
 // class : 키워드 : 자바에서 파일을 만드는 최소 단위이다. 메모리에 들어가면 객체(Object)가 된다.
 public class Exam_Var_Box_1 {
