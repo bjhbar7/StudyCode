@@ -1,4 +1,4 @@
-//package : keyword : a.b.c.ch1 디렉토리에 Exam_Method_7 클래스 저장한다.
+//package : keyword : ch1 디렉토리에 Exam_Method_7 클래스 저장한다.
 package ch1;
 
 //public : 접근 제한자 : Access Modifier : 다른 패키지, 같은 패키지에서의 접근을 허락한다.

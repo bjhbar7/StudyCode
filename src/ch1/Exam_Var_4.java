@@ -1,4 +1,4 @@
-//package : keyword : a.b.c.ch1 디렉토리에 Exam_Var_4 클래스를 저장한다.
+//package : keyword : ch1 디렉토리에 Exam_Var_4 클래스를 저장한다.
 //; : 문장(statement) 종결
 package ch1;
 //public : 접근 제한자 : Access Modifier : 같은 패키지, 다른 패키지에서 Exam_Var_4 클래스에 접근하는 것을 허락한다.

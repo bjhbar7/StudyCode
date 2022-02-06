@@ -1,4 +1,4 @@
-//package : keyword : a.b.c.ch1에 Exam_Method_3 class 를 저장한다.
+//package : keyword : ch1에 Exam_Method_3 class 를 저장한다.
 //; : 문장(statement) 종결
 package ch1;
 

@@ -1,4 +1,4 @@
-//package : keyword : a.b.c.ch1 디렉토리에 Exam_ClassTest_1 클래스를 저장한다.
+//package : keyword : ch1 디렉토리에 Exam_ClassTest_1 클래스를 저장한다.
 //; : 문장(statement) 종결
 package ch1;
 
