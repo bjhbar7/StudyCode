@@ -19,19 +19,19 @@ public class Exam_String_102 {
 		System.out.println("charArray[2] : " + charArray[2]);
 		// java.lang.System
 		// public static int identityHashCode(Object x)
-		System.out.println("System.indentityHashCode(charArray) : " + System.indentityHashCode(charArray));
+		System.out.println("System.indentityHashCode(charArray) : " + System.identityHashCode(charArray));
 		//String 클래스(문자열 클래스)를 인스턴스했다.
 		String str = new String(charArray);
 		System.out.println("str : " + str);
-		System.out.println("System.indentityHashCode(str) : " + System.indentityHashCode(str));
+		System.out.println("System.indentityHashCode(str) : " + System.identityHashCode(str));
 		//String 클래스(문자열 클래스)를 인스턴스했다.
 		String str1 = new String("abc");
 		System.out.println("str1 : " + str1);
-		System.out.println("System.indentityHashCode(str1) : " + System.indentityHashCode(str1));
+		System.out.println("System.indentityHashCode(str1) : " + System.identityHashCode(str1));
 		// String 참조변수 = ""; : 가장 많이 사용하는 방법이다.
 		String str2 = "abc";
 		System.out.println("str2 : " + str2);
-		System.out.println("System.indentityHashCode(str2) : " + System.indentityHashCode(str2));
+		System.out.println("System.indentityHashCode(str2) : " + System.identityHashCode(str2));
 
 
 	}
