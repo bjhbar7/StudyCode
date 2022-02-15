@@ -1,6 +1,6 @@
 package ch2;
 
-import a.b.c.ch2.vo.MemberVO_101;
+import ch2.MemberVO_101;
 
 //회원가입 프로그램
 public class MemberScr_101 {
