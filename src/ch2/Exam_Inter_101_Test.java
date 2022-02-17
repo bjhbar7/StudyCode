@@ -6,6 +6,7 @@ import ch2.Exam_Inter_101_Class;
 
 public class Exam_Inter_101_Test {
 
+	public static void main(String args[]) {
 	Exam_Inter_102 ei = new Exam_Inter_101_Class();
 	System.out.println("ei狼 林家蔼 >>>>>>>> : " + ei);
 	ei.aM();
@@ -14,4 +15,5 @@ public class Exam_Inter_101_Test {
 	Exam_Inter_103 ei2 = new Exam_Inter_101_Class();
 	System.out.println("ei2狼 林家蔼 >>>>>>>> : " + ei2);
 	ei2.eM();
+	}
 }
