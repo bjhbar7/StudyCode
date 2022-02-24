@@ -1,7 +1,7 @@
 package a.b.c.ch4.mem.vo;
 
 public class MemberVO {
-	
+
 	private String mid;
 	private String mpw;
 	private String mname;
@@ -9,13 +9,12 @@ public class MemberVO {
 	private String maddr;
 	
 	
-	
 	public MemberVO() {
-		
+	
 	}
-	
+
 	public MemberVO(String mid, String mpw, String mname, String mhp, String maddr) {
-	
+		
 		this.mid = mid;
 		this.mpw = mpw;
 		this.mname = mname;
@@ -53,6 +52,4 @@ public class MemberVO {
 	public void setMaddr(String maddr) {
 		this.maddr = maddr;
 	}
-	
-	
 }

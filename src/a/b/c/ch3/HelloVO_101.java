@@ -10,7 +10,7 @@ public class HelloVO_101 {
 		
 	}
 
-	public void HelloVO(String mid, String mpw, String mname) {
+	public HelloVO_101(String mid, String mpw, String mname) {
 		
 		this.mid = mid;
 		this.mpw = mpw;
