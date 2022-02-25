@@ -1,13 +1,13 @@
 package a.b.c.ch5;
 
 @SuppressWarnings("serial")
-class IDFormatException extends Exception{
-	public IDFormatException(String s) {
+class IDFormatException_1 extends Exception{
+	public IDFormatException_1(String s) {
 		super(s);
 	}
 }
 
-class IDFormatTest{
+class IDFormatTest_1{
 	
 	private String userID;
 	
@@ -15,13 +15,13 @@ class IDFormatTest{
 		return userID;
 	}
 	
-	public void setUserID(String userID) throws IDFormatException {
+	public void setUserID(String userID) throws IDFormatException_1 {
 		
 		if (userID == null) {
-			IDFormatException ide = new IDFormatException("아이디는 null일 수 없습니다.");
+			IDFormatException_1 ide = new IDFormatException_1("아이디는 null일 수 없습니다.");
 			throw ide;
 		}else if (userID.length() < 8 || userID.length() >20) {
-			throw new IDFormatException("아이디는 8~20자 이하 입니다.");
+			throw new IDFormatException_1("아이디는 8~20자 이하 입니다.");
 		}
 		this.userID = userID;
 	}
