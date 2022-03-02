@@ -1,0 +1,150 @@
+package a.b.c.ch6;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileReader;
+import java.io.FileWriter;
+
+import a.b.c.common.FilePath;
+
+public class Ex_BufferedWriter_101 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String filePath = FilePath.FILE_PATH_CH6;
+		
+		String inFile = filePath + "/" + "Ex_BufferedWriter_101.java";
+		String outFile = filePath + "/" + "Ex_BufferedWriter_101.bak";
+		
+		BufferedReader inbuf = null;
+		BufferedWriter outbuf = null;
+		FileReader fr = null;
+		FileWriter fw = null;
+		File f = null;
+		int data = 0;
+		
+		try {
+			
+			f = new File(inFile);
+			
+			boolean bFile = f.exists();
+			System.out.println("bFile >>> : " + bFile);
+			
+			if(bFile) {
+				
+				fr = new FileReader(f);
+				inbuf = new BufferedReader(fr);
+				
+				fw = new FileWriter(outFile, true);
+				outbuf = new BufferedWriter(fw);
+				
+				while ((data = inbuf.read()) != -1) {
+					System.out.print((char)data);
+					outbuf.write(data);
+				}
+				outbuf.flush();
+				
+				inbuf.close(); inbuf=null;
+				outbuf.close(); outbuf=null;
+				fr.close(); fr=null;
+				fw.close(); fw=null;
+			} else {
+				System.out.println("사용하려는 해당 데이터(파일이)가 없습니다.");
+			}
+			
+		}catch (Exception e) {
+			System.out.println("에러가 e.getMessage() >>> : " + e.getMessage());
+		}finally {
+			if (inbuf != null) {
+				try {inbuf.close(); inbuf=null;}catch(Exception e) {}
+			}
+			if (outbuf != null) {
+				try {outbuf.close(); outbuf=null;}catch(Exception e) {}
+			}
+			if (fr != null) {
+				try {fr.close(); fr=null;}catch(Exception e) {}
+			}
+			if (outFile != null) {
+				try {fw.close(); fw=null;}catch(Exception e) {}
+			}
+		}
+	}
+
+}
+package a.b.c.ch6;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileReader;
+import java.io.FileWriter;
+
+import a.b.c.common.FilePath;
+
+public class Ex_BufferedWriter_101 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String filePath = FilePath.FILE_PATH_CH6;
+		
+		String inFile = filePath + "/" + "Ex_BufferedWriter_101.java";
+		String outFile = filePath + "/" + "Ex_BufferedWriter_101.bak";
+		
+		BufferedReader inbuf = null;
+		BufferedWriter outbuf = null;
+		FileReader fr = null;
+		FileWriter fw = null;
+		File f = null;
+		int data = 0;
+		
+		try {
+			
+			f = new File(inFile);
+			
+			boolean bFile = f.exists();
+			System.out.println("bFile >>> : " + bFile);
+			
+			if(bFile) {
+				
+				fr = new FileReader(f);
+				inbuf = new BufferedReader(fr);
+				
+				fw = new FileWriter(outFile, true);
+				outbuf = new BufferedWriter(fw);
+				
+				while ((data = inbuf.read()) != -1) {
+					System.out.print((char)data);
+					outbuf.write(data);
+				}
+				outbuf.flush();
+				
+				inbuf.close(); inbuf=null;
+				outbuf.close(); outbuf=null;
+				fr.close(); fr=null;
+				fw.close(); fw=null;
+			} else {
+				System.out.println("사용하려는 해당 데이터(파일이)가 없습니다.");
+			}
+			
+		}catch (Exception e) {
+			System.out.println("에러가 e.getMessage() >>> : " + e.getMessage());
+		}finally {
+			if (inbuf != null) {
+				try {inbuf.close(); inbuf=null;}catch(Exception e) {}
+			}
+			if (outbuf != null) {
+				try {outbuf.close(); outbuf=null;}catch(Exception e) {}
+			}
+			if (fr != null) {
+				try {fr.close(); fr=null;}catch(Exception e) {}
+			}
+			if (fw != null) {
+				try {fw.close(); fw=null;}catch(Exception e) {}
+			}
+		}
+	}
+
+}
